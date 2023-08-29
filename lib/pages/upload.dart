@@ -15,7 +15,7 @@ class UploadPage extends StatefulWidget {
 
 class _UploadPageState extends State<UploadPage> {
   XFile? _imageFile;
-  dynamic? _pickerror;
+  dynamic _pickerror;
   String? extracted = 'Recognised Extracted Text Will Appear Here';
   final picker = ImagePicker();
   _imgFromGallery() async {
